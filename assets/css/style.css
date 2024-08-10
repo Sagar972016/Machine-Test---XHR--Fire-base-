@@ -1,0 +1,45 @@
+body{
+    background-image: url(../images/glitter-golden-bokeh-lights-scaled.jpeg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.postCard h2{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.loader{
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-font{
+    font-weight: 500 !important;
+    
+}
+.p-card{
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.p-card:hover{
+    transform: scale(1.1);
+}
+.card{
+    font-weight: 400;
+    border-radius: 30px;
+    background-color:antiquewhite;
+}
+.mid-bg{
+    background-color: white;
+}
